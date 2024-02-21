@@ -1,0 +1,28 @@
+body{
+    margin-right: 80px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 5px;
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(11, 11, 11);
+    margin-left: 20px;
+}
+.search input{
+    color: rgb(119, 119, 119);
+    font-size: 17px;
+    width: 85%;
+    height: 35px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.search button{
+    background-color: rgba(117, 117, 117, 0.83);
+}

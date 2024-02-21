@@ -1,0 +1,27 @@
+.bottom-glass-effect{
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(15px);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 5px;
+    height: 40%;
+}
+.bottom-glass-effect .title{
+    font-size: 30px;
+}
+.title{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 80%;
+    margin-bottom: 0px;
+    text-overflow: ellipsis;
+}
+
+.card{
+    transition: scale 0.5s;
+}
+
+.card:hover{
+    scale: 1.05;
+}
